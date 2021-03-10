@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  object-fit: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app_modal{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.app_modal_button{
+  position: relative;
+  top: 10px;
+  right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app_headerImage{
+  object-fit: contain;  
+  padding: 12px;
+}
+
+.app_header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(240, 237, 235);
+  box-shadow: 4px 0px 2px gray;
+  margin-bottom: 10px;
+}
+.app_header_buttonContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-right: 40px;
+  max-height: 30px;
+}
+
+.app_header_signUp{
+  position: relative;
+  bottom: 18px;
+  left: 100px;
+}
+
+.imageUpload{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+
+.uploader{
+  margin: 7px 0px;
+  border: 1px solid #ccc;
+  padding: 4px 10px;
+  cursor: pointer;
+
+}
+
+.caption{
+  padding: 7px;
+  border: 2px solid rgb(128, 57, 57);
+  border-radius: 3px;
+}
+.footer{
+  margin-bottom: 80px;
 }
